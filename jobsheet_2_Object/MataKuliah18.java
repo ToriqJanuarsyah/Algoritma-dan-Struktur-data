@@ -21,7 +21,7 @@ public class MataKuliah18 {
         System.out.println("Nama Mata Kuliah  : " + namaMK);
         System.out.println("SKS               : " + SKS);
         System.out.println("Jumlah Jam        : " + jumlahJam);
-    }
+    }   
 
     void ubahSKS(int SKSBaru) { 
             SKS = SKSBaru;
