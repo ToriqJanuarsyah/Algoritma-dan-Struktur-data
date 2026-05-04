@@ -62,4 +62,15 @@ public class StackTugasMahasiswa17 {
         }
         System.out.println();
     }
+
+    public Mahasiswa17 peekBottom() {
+    if (!isEmpty()) {
+        return stack[0]; 
+    }
+    return null;
+    }
+
+    public int count() {
+            return top + 1; 
+        }
 }
